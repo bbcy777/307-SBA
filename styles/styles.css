@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+
+.login {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    border: 10px whitesmoke;
+}
+a {
+    color: rgb(221, 212, 206);
+    font-weight: 800;
+}
+a:hover {
+    color: rgb(241, 83, 9);
+    font-weight: 600;
+}
+/* form button :hover {
+    color:rgb(46, 11, 2)
+} */
+.loginForm {
+    margin-top: 10%;
+}
+.surveyForm {
+    display: flex;
+
+}
