@@ -3,6 +3,34 @@
     color: antiquewhite;
 }
 
+div.main {
+    display: flex;
+    padding: 1.5em;
+}
+div.mainColumn {
+    flex:70%;
+    padding-right: 1em;
+}
+div.sideColumn {
+   flex:30%;
+}
+.iconImg {
+    padding: 0.3em;
+}
+table td>progress {
+    margin: 0.3em;
+}
+#mainTable {
+    margin: 1em;
+}
+.card {
+    margin-bottom: 2em;
+}
+@media (max-width: 700px) {
+    .main {
+      flex-direction: column;
+    }
+  }
 .login {
     display: block;
     text-align: center;
@@ -13,6 +41,7 @@
 }
 a {
     color: rgb(221, 212, 206);
+    border-radius: 5%;
     font-weight: 800;
 }
 a:hover {
@@ -26,6 +55,17 @@ a:hover {
     margin-top: 10%;
 }
 .surveyForm {
-    display: flex;
+    margin: 5% 20%;
+}
+.surveyForm input {
+    margin: .5em;
 
+}
+.surveyForm fieldset {
+    margin-bottom: 1em;
+    border-bottom: .1em solid;
+}
+.giphy-embed {
+    background-color: blueviolet;
+    display: flex;
 }

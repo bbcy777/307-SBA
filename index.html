@@ -42,10 +42,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./pages/survey.html">Favorite?</a>
+                        <a class="nav-link" aria-current="page" href="./pages/survey.html">Vote?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/login.html">Members</a>
+                        <a class="nav-link" href="./pages/login.html">Members?</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -55,7 +55,57 @@
             </div>
         </div>
     </nav>
-
+    <div class="main">        
+        <div class="mainColumn">
+            <div class="mainContent">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quod sequi illum, nobis libero porro repellendus autem sapiente ullam fuga eum modi pariatur ipsam provident quisquam sit dolore beatae, rem vel excepturi explicabo itaque mollitia repellat. Sed nisi eaque illo cupiditate laborum hic quidem aliquid voluptates, sapiente tempora. Velit eum accusantium quam non beatae itaque asperiores delectus at. Labore, beatae iusto sapiente porro ipsa neque dicta eaque! Exercitationem veniam dolorem quis. Atque sed, itaque iusto possimus nesciunt doloribus explicabo suscipit debitis, expedita pariatur porro eum eius dolorum! Eligendi, harum modi. Eaque id, assumenda, enim maiores ipsam vero nam deleniti, voluptas perferendis recusandae veniam quas. Eius fuga et, quaerat, ratione eaque facere id rerum nam, ad alias labore possimus qui cum incidunt non nesciunt dicta obcaecati odit iste odio numquam iusto ipsum dolorum! Nemo, totam. Debitis nobis iste vitae provident nemo ipsum quis corrupti amet voluptas ex soluta dolorem odio obcaecati exercitationem voluptate, qui adipisci. In eveniet necessitatibus beatae accusantium, officiis ipsam quisquam ratione, quidem fugiat obcaecati doloremque. Quod eius nulla, rem totam, optio aliquid deserunt reprehenderit maiores aspernatur cupiditate magni at inventore commodi deleniti cum laboriosam delectus dicta repudiandae modi mollitia magnam natus unde ipsam vero. Est dicta cum, cumque fugit eius cupiditate eaque nemo ducimus, totam animi laudantium ullam quasi amet magni dolorem voluptas reprehenderit sunt, ipsa quidem sequi aliquid autem. Eaque ab quaerat sapiente reprehenderit magni repudiandae laboriosam ex cumque neque nam, illum dicta tenetur itaque mollitia facilis, veniam ducimus, commodi molestiae esse expedita tempore vel facere! Soluta, esse? Magni quam facere perferendis aut error, et ducimus tempore doloribus numquam? Quisquam, distinctio, voluptatum, sit eius libero voluptas fugiat alias quia id atque aspernatur at voluptatibus animi praesentium facilis pariatur tempore delectus! Quam ab culpa, doloribus accusamus pariatur sint ipsum assumenda maxime ut exercitationem harum, quos reiciendis est atque.</p>
+            </div>
+            <div class="mainContent" id="mainTable">
+                <table class="table table-hover align-middle table-bordered">
+                    <thead>
+                        <tr>
+                            <td colspan="2" class="table-active fs-5 fw-bolder">Last 30 day's favorites!</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <th class="table-secondary"><img class="iconImg" src="./images/iconmonstr-candy-10.svg" alt="donut icon">Malasadas</th>
+                        <td><progress id="donutVote" value="70" max="100"> </progress>4500 votes!</td>
+                    </tr>
+                    <tr>
+                        <th class="table-warning"><img class="iconImg" src="./images/iconmonstr-candy-20.svg" alt="cake icon">Coconut & Cream cake</th>
+                        <td><progress id="cakeVote" value="90" max="100"> </progress>5000 votes!</td>
+                    </tr>
+                    <tr>
+                        <th class="table-light"><img class="iconImg" src="./images/iconmonstr-candy-26.svg" alt="ice-cream icon">Birthday Cake</th>
+                        <td><progress id="icecreamVote" value="85" max="100"> </progress>4900 votes!</td>
+                    </tr>
+                    <tr>
+                        <th class="table-danger"><img class="iconImg" src="./images/iconmonstr-candy-5.svg" alt="cookie icon">Chai</th>
+                        <td><progress id="cookieVote" value="78" max="100"> </progress>4800 votes!</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="sideColumn">
+            <div class="card">
+                <img src="./images/Bakery2.jpg" class="card-img-top" alt="pastry">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Bakery Nouveau</h5>
+                    <p class="card-text">From chocolates, macarons, cookies, breads to breakfast pastries. Name it, and Bakery Nouveau delivers the best!</p>
+                    <a href="https://bakerynouveau.com/" class="btn btn-warning">Webpage</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/Bakery6.jpg" class="card-img-top" alt="pastry">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Patrick's Café & Bakery</h5>
+                    <p class="card-text">Only open three days a week! Best Hawaiian pastries and brunch spot.</p>
+                    <a href="https://bakerynouveau.com/" class="btn btn-warning">Webpage</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
     <!-- Bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
