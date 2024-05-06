@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Favorite Survey</title>
 </head>
-<body style="background: linear-gradient(to left, #a167a9 , #241057">
+<body style="background: linear-gradient(to left, #a167a9 , #241057)">
     <!-- Bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:bisque;">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary" style="background-color:rgb(245, 219, 187);">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img src="../images/home.png" alt="bakery logo" width="50px">Sweet Tooth's Home
@@ -17,16 +17,15 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">                    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">                    
                     <li class="nav-item">
                         <a class="nav-link" href="./login.html">Your Own List</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="d-flex mt-3" role="search">
+                    <iframe src="https://giphy.com/embed/ln7i16vvMzbFSLb3GX" width="70" height="70" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
             </div>
         </div>
     </nav>
@@ -82,12 +81,13 @@
             <div><input type="radio"><label for="surveyR">Not really</label></div>
         </fieldset>
         <fieldset>
-            <legent>Share a memorable dessert experience you've had.</legent>
-            <div><input type="textarea"><label for="surveyR"></label></div>
+            <p>Share a memorable dessert experience you've had.</p>
+            <textarea name="surveyR" cols="50em" rows="4"></textarea>
         </fieldset>
         <button class="btn"><a href="#">Submit</a></button>
     </form>
-    <iframe src="https://giphy.com/embed/ln7i16vvMzbFSLb3GX" width="250" height=auto frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <img src="../images/congratulations-7600_256.gif" alt="celebration gif" class="celebrate">
+    
     <!-- Bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

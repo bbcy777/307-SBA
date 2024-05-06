@@ -31,13 +31,15 @@ table td>progress {
       flex-direction: column;
     }
   }
-.login {
+form.login {
     display: block;
     text-align: center;
     width: 50%;
     margin-top: 20%;
     margin-left: 25%;
-    border: 10px whitesmoke;
+    padding: 2em;
+    border-radius: 5%; 
+    border: 0.3em wheat dashed
 }
 a {
     color: rgb(221, 212, 206);
@@ -65,7 +67,7 @@ a:hover {
     margin-bottom: 1em;
     border-bottom: .1em solid;
 }
-.giphy-embed {
-    background-color: blueviolet;
-    display: flex;
+.celebrate {
+   
+    margin-left: 25%;
 }
