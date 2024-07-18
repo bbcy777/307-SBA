@@ -15,7 +15,14 @@ Future update:
 3. Learn more about gif and iframe
 4. I only used basic font. Maybe link some new font next time.
 
+![Webpage screenshot](image.png)
 
+![navbar drop down and responsive layout](image-1.png)
 Source of [icons](https://iconmonstr.com/)
 
-Source of [Photo](https://www.istockphoto.com/)
+![login page screenshot](image-2.png)
+
+![survey page screenshot](image-3.png)
+
+- Icons from [iconmonstr](https://iconmonstr.com/)
+- Photos from [istockphoto](https://www.istockphoto.com/)
